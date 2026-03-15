@@ -3,6 +3,8 @@ Thanks for your interest in our approach!
 
 The eye movement data are in the DATA folder. The .asc files contain eye movement events as defined by the standard saccade detection Eyelink algorithm. The .mat files contain the structure of the experiment for each participant. How this is coded can be understood from the ANALYSE() function.
 
+Please note that the eye movement data were collected as part of the dissertation project of one of our students, Serena Sullivan. The project differed from ours in that it did not involve our data-driven approach and included additional conditions that were not used in our analysis. We would like to take this opportunity to thank Serena for her excellent work in data collection and stimulus generation. 
+
 Here are the steps to replicate our analysis:
 
 Create the images for deep learning using CREATE_IMAGES_FOR_DNN.m.
